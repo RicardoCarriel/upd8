@@ -1,0 +1,14 @@
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\bin\Debug\net6.0\upd8.Business.deps.json
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\bin\Debug\net6.0\upd8.Business.runtimeconfig.json
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\bin\Debug\net6.0\upd8.Business.dll
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\bin\Debug\net6.0\upd8.Business.pdb
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\upd8.Business.csproj.AssemblyReference.cache
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\upd8.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\upd8.Business.AssemblyInfoInputs.cache
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\upd8.Business.AssemblyInfo.cs
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\upd8.Business.csproj.CoreCompileInputs.cache
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\upd8.Business.dll
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\refint\upd8.Business.dll
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\upd8.Business.pdb
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\upd8.Business.genruntimeconfig.cache
+C:\Users\rick0\Documents\GitHub\upd8\upd8.Business\obj\Debug\net6.0\ref\upd8.Business.dll

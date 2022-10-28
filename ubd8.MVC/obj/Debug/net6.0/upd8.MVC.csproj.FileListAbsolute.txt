@@ -1,0 +1,8 @@
+C:\Users\rick0\Documents\GitHub\upd8\ubd8.MVC\obj\Debug\net6.0\upd8.MVC.csproj.AssemblyReference.cache
+C:\Users\rick0\Documents\GitHub\upd8\ubd8.MVC\obj\Debug\net6.0\upd8.MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rick0\Documents\GitHub\upd8\ubd8.MVC\obj\Debug\net6.0\upd8.MVC.AssemblyInfoInputs.cache
+C:\Users\rick0\Documents\GitHub\upd8\ubd8.MVC\obj\Debug\net6.0\upd8.MVC.AssemblyInfo.cs
+C:\Users\rick0\Documents\GitHub\upd8\ubd8.MVC\obj\Debug\net6.0\upd8.MVC.csproj.CoreCompileInputs.cache
+C:\Users\rick0\Documents\GitHub\upd8\ubd8.MVC\obj\Debug\net6.0\upd8.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rick0\Documents\GitHub\upd8\ubd8.MVC\obj\Debug\net6.0\upd8.MVC.RazorAssemblyInfo.cache
+C:\Users\rick0\Documents\GitHub\upd8\ubd8.MVC\obj\Debug\net6.0\upd8.MVC.RazorAssemblyInfo.cs

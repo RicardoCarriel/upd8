@@ -1,0 +1,67 @@
+﻿@model IEnumerable<upd8.MVC.ViewModels.ClienteViewModel>
+
+@{
+    ViewData["Title"] = "Lista de Clientes";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p supress-by-claim-name="Categoria" supress-by-claim-value="Adicionar">
+    <a class="btn btn-info" asp-action="Create">Novo Cliente</a>
+</p>
+
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cpf)
+            </th>  
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th> 
+            <th>
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </th> 
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th> 
+            <th>
+                @Html.DisplayNameFor(model => model.Cidade)
+            </th> 
+            <th>
+                @Html.DisplayNameFor(model => model.Sexo)
+            </th> 
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-right">
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id"><spam class="fa fa-search"></spam>Detalhes</a>
+                    <a class="btn btn-warning" asp-controller="Cliente" supress-by-claim-name="Cliente" supress-by-claim-value="Editar" asp-action="Edit" asp-route-id="@item.Id"><spam class="fa fa-pencil-alt">Editar</spam></a>
+                    <a class="btn btn-danger" asp-controller="Cliente" supress-by-claim-name="Cliente" supress-by-claim-value="Excluir"  asp-action="Delete" asp-route-id="@item.Id"><spam class="fa fa-trash">Excluir</spam></a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cpf)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataNascimento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cidade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sexo)
+                </td>                
+            </tr>
+        }
+    </tbody>
+</table>
