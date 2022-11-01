@@ -37,7 +37,7 @@ namespace upd8.Data.Migrations
                         .HasColumnType("varchar(11)");
 
                     b.Property<DateTime>("DataNascimento")
-                        .HasColumnType("date");
+                        .HasColumnType("DATE");
 
                     b.Property<string>("Endereco")
                         .IsRequired()

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YbDFhHhDONh9fcoy4Tn3t9vHugHzKAo8ThkIa7rwxFAtA8j6muE3CTqCn+E0iifyU837c8KRW8TAve6bS1YUaQ==",
+  "dgSpecHash": "CJ2XMMiPt1zsJsOu2IRcHAUwhmu7KQ9w1u74SMiGI9l8/EjbE2u1jncJhZjhk9NybTd4dQXCBwQvJTCJr1oCSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rick0\\Documents\\GitHub\\upd8\\ubd8.MVC\\upd8.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rick0\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\rick0\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\rick0\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\rick0\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rick0\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -16,7 +16,7 @@ namespace upd8.Data.Migrations
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Cpf = table.Column<string>(type: "varchar(11)", nullable: false),
                     Nome = table.Column<string>(type: "varchar(200)", nullable: false),
-                    DataNascimento = table.Column<DateTime>(type: "date", nullable: false),
+                    DataNascimento = table.Column<DateTime>(type: "DATE", nullable: false),
                     Sexo = table.Column<string>(type: "varchar(10)", nullable: false),
                     Endereco = table.Column<string>(type: "varchar(200)", nullable: false),
                     Estado = table.Column<string>(type: "varchar(200)", nullable: false),

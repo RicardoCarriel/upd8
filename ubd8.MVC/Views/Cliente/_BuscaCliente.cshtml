@@ -1,0 +1,25 @@
+﻿@model upd8.MVC.ViewModels.ClienteViewModel
+
+@{
+    ViewData["Title"] = "Buscar Cliente";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <form asp-action="Search">
+            <vc:Summary></vc:Summary>     
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control"/>
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>  
+            <div class="form-group">
+                <input type="submit" value="Buscar" class="btn btn-primary"/>
+                <a class="btn btn-info" asp-action="Search">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>

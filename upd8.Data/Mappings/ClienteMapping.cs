@@ -20,7 +20,7 @@ public class ClienteMapping : IEntityTypeConfiguration<Cliente>
 
         builder.Property(p => p.DataNascimento)
             .IsRequired()
-            .HasColumnType("date");
+            .HasColumnType("DATE");
 
         builder.Property(p => p.Sexo)
             .IsRequired()

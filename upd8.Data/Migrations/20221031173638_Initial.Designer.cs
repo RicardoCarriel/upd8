@@ -12,7 +12,7 @@ using upd8.Data.context;
 namespace upd8.Data.Migrations
 {
     [DbContext(typeof(Upd8DbContext))]
-    [Migration("20221028163522_Initial")]
+    [Migration("20221031173638_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,7 +39,7 @@ namespace upd8.Data.Migrations
                         .HasColumnType("varchar(11)");
 
                     b.Property<DateTime>("DataNascimento")
-                        .HasColumnType("date");
+                        .HasColumnType("DATE");
 
                     b.Property<string>("Endereco")
                         .IsRequired()

@@ -28,6 +28,15 @@ public class ClienteController : BaseController
         return View(_mapper.Map<IEnumerable<ClienteViewModel>>(await _clienteRepository.ObterTodos()));
     }
 
+    public async Task<IActionResult> Search(string Pesquisa = "")
+    {
+        var clienteViewModel = await ObterClientePorNome(Pesquisa);
+
+        if (clienteViewModel == null) return NotFound();
+
+        return View(clienteViewModel);
+    }
+
     [Route("adicionar-cliente")]
     public async Task<IActionResult> Create()
     {
@@ -35,6 +44,7 @@ public class ClienteController : BaseController
     }
 
     [Route("adicionar-cliente")]
+    [HttpPost]
     public async Task<IActionResult> Create(ClienteViewModel clienteViewModel)
     {
         if (!ModelState.IsValid) return View(clienteViewModel);
@@ -58,6 +68,7 @@ public class ClienteController : BaseController
     }
 
     [Route("editar-cliente/{id:guid}")]
+    [HttpPost]
     public async Task<IActionResult> Edit(Guid id, ClienteViewModel clienteViewModel)
     {
         if (id != clienteViewModel.Id) return NotFound();
@@ -104,5 +115,10 @@ public class ClienteController : BaseController
     private async Task<ClienteViewModel> ObterClientePorId(Guid id)
     {
         return _mapper.Map<ClienteViewModel>(await _clienteRepository.ObterPorId(id));
+    }
+
+    private async Task<IEnumerable<ClienteViewModel>> ObterClientePorNome(string nome)
+    {
+        return _mapper.Map<IEnumerable<ClienteViewModel>>(await _clienteRepository.Buscar(c => c.Nome == nome));
     }
 }
