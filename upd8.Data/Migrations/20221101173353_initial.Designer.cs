@@ -12,8 +12,8 @@ using upd8.Data.context;
 namespace upd8.Data.Migrations
 {
     [DbContext(typeof(Upd8DbContext))]
-    [Migration("20221031173638_Initial")]
-    partial class Initial
+    [Migration("20221101173353_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,7 +36,7 @@ namespace upd8.Data.Migrations
 
                     b.Property<string>("Cpf")
                         .IsRequired()
-                        .HasColumnType("varchar(11)");
+                        .HasColumnType("varchar(14)");
 
                     b.Property<DateTime>("DataNascimento")
                         .HasColumnType("DATE");

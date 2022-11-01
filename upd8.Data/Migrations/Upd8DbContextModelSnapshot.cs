@@ -34,7 +34,7 @@ namespace upd8.Data.Migrations
 
                     b.Property<string>("Cpf")
                         .IsRequired()
-                        .HasColumnType("varchar(11)");
+                        .HasColumnType("varchar(14)");
 
                     b.Property<DateTime>("DataNascimento")
                         .HasColumnType("DATE");

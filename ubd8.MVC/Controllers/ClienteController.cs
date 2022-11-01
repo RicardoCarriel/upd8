@@ -30,11 +30,11 @@ public class ClienteController : BaseController
 
     public async Task<IActionResult> Search(string Pesquisa = "")
     {
-        var clienteViewModel = await ObterClientePorNome(Pesquisa);
+        var clienteViewModel = await _clienteRepository.Buscar(c => c.Nome.Contains(Pesquisa) || c.Estado.Contains(Pesquisa) || c.Cpf.Contains(Pesquisa) || c.DataNascimento.ToString() == Pesquisa || c.Cidade == Pesquisa);
 
         if (clienteViewModel == null) return NotFound();
 
-        return View(clienteViewModel);
+        return View(_mapper.Map<IEnumerable<ClienteViewModel>>(await _clienteRepository.Buscar(c => c.Nome == Pesquisa || c.Estado == Pesquisa || c.Cpf == Pesquisa || c.DataNascimento.ToString() == Pesquisa || c.Cidade == Pesquisa)));
     }
 
     [Route("adicionar-cliente")]

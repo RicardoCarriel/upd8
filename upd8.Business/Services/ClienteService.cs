@@ -13,16 +13,20 @@ public class ClienteService : BaseService, IClienteService
         _clienteRepository = clienteRepository;
     }
 
-    public async Task Adicionar(Cliente cliente)
+    public async Task<bool> Adicionar(Cliente cliente)
     {
-        if (!ExecutarValidacao(new ClienteValidation(), cliente)) return;
-
+        if (_clienteRepository.Buscar(c => c.Cpf == cliente.Cpf).Result.Any())
+        {
+            Notificar("CPF já Existente.");
+            return false;
+        }
+            
         await _clienteRepository.Adicionar(cliente);
+        return true;
     }
 
     public async Task Atualizar(Cliente cliente)
     {
-        if (!ExecutarValidacao(new ClienteValidation(), cliente)) return;
         await _clienteRepository.Atualizar(cliente);
     }
 

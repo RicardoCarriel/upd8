@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Sf9UEXZqYmRKSy6ntDF455JKtsea81rnb17lub/FffA=",
+  "Hash": "I6WtxrP1p0wtIO8LRY+8Hizul4k1r3iIngN/Ny32Vhs=",
   "Source": "upd8.MVC",
   "BasePath": "_content/upd8.MVC",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\rick0\\Documents\\GitHub\\upd8\\ubd8.MVC\\wwwroot\\js\\BuscaCidade.js",
+      "SourceId": "upd8.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rick0\\Documents\\GitHub\\upd8\\ubd8.MVC\\wwwroot\\",
+      "BasePath": "_content/upd8.MVC",
+      "RelativePath": "js/BuscaCidade.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\BuscaCidade.js"
+    },
+    {
+      "Identity": "C:\\Users\\rick0\\Documents\\GitHub\\upd8\\ubd8.MVC\\wwwroot\\js\\maskCpf.js",
+      "SourceId": "upd8.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rick0\\Documents\\GitHub\\upd8\\ubd8.MVC\\wwwroot\\",
+      "BasePath": "_content/upd8.MVC",
+      "RelativePath": "js/maskCpf.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\maskCpf.js"
     },
     {
       "Identity": "C:\\Users\\rick0\\Documents\\GitHub\\upd8\\ubd8.MVC\\wwwroot\\js\\site.js",

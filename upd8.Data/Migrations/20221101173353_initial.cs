@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace upd8.Data.Migrations
 {
-    public partial class Initial : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,7 +14,7 @@ namespace upd8.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Cpf = table.Column<string>(type: "varchar(11)", nullable: false),
+                    Cpf = table.Column<string>(type: "varchar(14)", nullable: false),
                     Nome = table.Column<string>(type: "varchar(200)", nullable: false),
                     DataNascimento = table.Column<DateTime>(type: "DATE", nullable: false),
                     Sexo = table.Column<string>(type: "varchar(10)", nullable: false),

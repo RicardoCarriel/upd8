@@ -12,7 +12,7 @@ public class ClienteMapping : IEntityTypeConfiguration<Cliente>
 
         builder.Property(p => p.Cpf)
             .IsRequired()
-            .HasColumnType("varchar(11)");
+            .HasColumnType("varchar(14)");
 
         builder.Property(p => p.Nome)
             .IsRequired()
